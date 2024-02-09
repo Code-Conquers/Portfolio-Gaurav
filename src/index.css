@@ -4,19 +4,19 @@
 
 @font-face {
     font-family: 'ibmplexMono';
-    src: url('./fonts/IBMPlexMono-Regular.ttf') format('woff');
+    src: url('/fonts/IBMPlexMono-Regular.ttf') format('woff');
     font-weight: normal;
     font-style: normal;
   }
   @font-face {
     font-family: 'VarelaRound';
-    src: url('./fonts/VarelaRound-Regular.ttf') format('woff'); 
+    src: url('/fonts/VarelaRound-Regular.ttf') format('woff'); 
     font-weight: normal;
     font-style: normal;
   }
   @font-face {
     font-family: 'PoorStory';
-    src: url('./fonts/PoorStory-Regular.ttf') format('woff'); 
+    src: url('/fonts/PoorStory-Regular.ttf') format('woff'); 
     font-weight: normal;
     font-style: normal;
   }
