@@ -64,7 +64,7 @@ function App() {
       </div>
 
       {componentsLoaded && (
-        <div className="h-screen flex-col flex">
+        <div className="h-screen flex-col flex" style={{ touchAction: "manipulation" }}>
           <div className="flex flex-col md:flex-col">
             <div className="flex justify-center md:justify-end items-center md:pt-72 sm:pt-32 order-2 md:order-1 ">
               <SocialLinks />

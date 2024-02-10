@@ -29,7 +29,7 @@ const defaultOptions = {
 };
 
 const Project = () => (
-  <div className="min-h-screen flex flex-col items-center justify-start p-8 md:p-14">
+  <div className="min-h-screen flex flex-col items-center justify-start p-8 md:p-14 md:pt-12">
     <h1 className="md:text-5xl text-3xl font-bold text-[#FFF7D4] font-PoorStory mt-8 ml-6"> Projects </h1>
     <div className="grid grid-cols-1 gap-8 md:gap-16 md:grid-cols-2 lg:grid-cols-3 mt-8 mx-6 w-full md:w-auto">
       {ProjectData.map((project, index) => (

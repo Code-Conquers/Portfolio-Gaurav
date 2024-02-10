@@ -1,7 +1,6 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import { Element, scroller } from "react-scroll";
-import Project from "./ProjectCard";
 
 function Intro() {
   const projectsRef = React.useRef(null);
@@ -17,7 +16,7 @@ function Intro() {
   return (
     <>
       <div>
-        <div className="flex flex-col justify-between md:flex-row ">
+        <div className="flex flex-col justify-between md:flex-row pt-10">
           {/* Introduction  */}
           <div className="md:flex flex-col md:items-start p-9">
             <div className="text-[#FFF7D4] font-bold text-5xl md:text-6xl font-PoorStory leading-tight md:mr-4">
@@ -45,20 +44,16 @@ function Intro() {
             <div className="text-xl text-[#C9D7DD] font-VarelaRound font-semibold mb-6 md:text-2xl">
               I write Software to pay my bills.<br/>I develop Web Apps and Android apps.
             </div>
-            <div className="group" onClick={scrollToProjects}>
+            {/* <div className="group" onClick={scrollToProjects}>
               <div className="w-52 h-14 bg-[#FFF7D4] rounded-tl-3xl rounded-br-3xl cursor-pointer text-xl text-[#122049] font-IbmplexMono font-bold flex justify-center items-center ">
                 <button>My Projects</button>
                 <div className="relative top-0 -inset-full h-full w-1/4 z-5 transform -skew-x-12 bg-gradient-to-r from-[#020103] to-transparent opacity-20 group-hover:animate-shine" />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
-
-      {/* Projects section */}
-      <Element name="projects" ref={projectsRef}>
-        <Project />
-      </Element>
+  
     </>
   );
 }
