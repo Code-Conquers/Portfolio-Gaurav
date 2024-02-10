@@ -1,0 +1,9 @@
+.sliding-container {
+    overflow: hidden;
+    width: 200px; /* Set the width of the container */
+    border: 1px solid #ccc; /* Add a border for visualization */
+  }
+  
+  .sliding-text {
+    white-space: nowrap;
+  }

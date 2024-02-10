@@ -29,7 +29,7 @@ function About() {
         <div className="flex flex-col p-12 filter md:h-1/2 md:w-1/2 mr-34">
           <Tilt options={defaultOptions}>
             <div className="flex flex-col drop-shadow-2xl items-start border-2 border-gray-700 bg-transparent rounded-xl backdrop-blur-sm p-12 mt-4">
-              <span className="md:text-5xl text-3xl font-bold font-PoorStory text-[#FFF7D4]">
+              <span className="md:text-5xl text-3xl font-bold font-PoorStory text-[#FFF7D4] ">
                 About Me
               </span>
               <span className="md:text-xl text-sm font-medium font-IbmplexMono text-[#C9D7DD] p-2">
