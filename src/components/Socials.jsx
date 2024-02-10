@@ -3,7 +3,6 @@ import React from "react";
 const socialLinksData = [
   { src: "/assets/github.svg", href: "https://github.com/gmpaliwal07" },
   { src: "/assets/linkedIn.svg", href: "https://www.linkedin.com/in/gaurav-paliwal-a7576124a/" },
-  { src: "/assets/instagram.svg", href: "https://instagram.com/yourusername" },
   { src: "/assets/twitter.svg", href: "https://twitter.com/gmpaliwal21" },
   { src: "/assets/gmail.svg", href: "mailto:gmpaliwal21@gmail.com" },
 ];
