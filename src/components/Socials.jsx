@@ -9,7 +9,7 @@ const socialLinksData = [
 
 function SocialLinks() {
   return (
-    <div className="p-9 select-none md:fixed md:top-1/3 z-10">
+    <div className="p-9 select-none md:fixed md:top-1/3 z-9 md:z-9">
       <div className="flex h-full w-18 border-2 border-gray-700 bg-transparent rounded-full backdrop-blur-sm flex-row justify-between md:justify-center md:flex-col ">
         {socialLinksData.map((link, index) => (
           <a

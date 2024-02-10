@@ -36,7 +36,7 @@ const ContactUs = () => {
             <div className="group">
               <div className="w-52 h-14 p-3 m-3 bg-[#FFF7D4] rounded-tl-3xl  rounded-br-3xl cursor-pointer text-xl text-[#122049] font-IbmplexMono font-bold flex justify-center items-center">
                 <input type="submit" value="Send" className='text-xl'/>
-                <div className="relative top-0 -inset-full h-full w-1/4 z-5  transform -skew-x-12 bg-gradient-to-r from-[#020103] to-transparent opacity-20 group-hover:animate-shine" />
+                <div className="relative top-0 -inset-full h-full w-1/4 z-5  transform -skew-x-12 bg-gradient-to-r from-[#020103] to-transparent opacity-20 group" />
               </div>
             </div>
             <Toaster position="top-center" reverseOrder={false} />

@@ -72,7 +72,7 @@ function Navbar() {
       {/* Normal Navbar for larger devices */}
 
       {/* Dropdown for small devices */}
-      <div className="md:hidden p-3 justify-between flex flex-row filter drop-shadow-xl items-center border-2 border-gray-700 bg-transparent rounded-lg backdrop-blur-sm">
+      <div className="md:hidden p-3 justify-between flex flex-row filter drop-shadow-xl items-center border-2 border-gray-700 bg-transparent rounded-lg backdrop-blur-sm z-10 fixed w-[95%]">
         <h1 className="text-2xl font-bold text-[#FFF7D4] font-IbmplexMono">gaurav.dev</h1>
         <button
           className="text-lg text-white font-VarelaRound font-light relative cursor-pointer flex items-center"
