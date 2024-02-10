@@ -16,20 +16,20 @@ import firebase from "/assets/firebase.svg"
 const Tech = () => {
   const technologies = [
     {
-      name: "C++",
-      icon: cplus,
-    },
-    {
-      name: "Dart",
-      icon: dart,
-    },
-    {
       name: "Flutter",
       icon: flutter,
     },
     {
       name: "JavaScript",
       icon: javascript,
+    },
+    {
+      name: "C++",
+      icon: cplus,
+    },
+    {
+      name: "Dart",
+      icon: dart,
     },
     {
       name: "Python",
