@@ -2,16 +2,12 @@ import React, { useState, useEffect } from "react";
 import BallCanvas from "../canvas/Ball";
 import { SectionWrapper } from "../hoc";
 import html from "/assets/html-1.svg";
-import css from "/assets/css-3.svg";
 import reactjs from "/assets/react.svg";
 import tailwind from "/assets/tailwindcss.svg";
 import cplus from "/assets/cplus.svg";
 import dart from "/assets/dart.svg";
 import flutter from "/assets/flutter.svg";
 import javascript from "/assets/javascript.svg";
-import python from "/assets/python.svg";
-import nextjs from "/assets/nextjs.svg";
-import reactnative from "/assets/react-native.svg";
 import firebase from "/assets/firebase.svg";
 
 const Tech = () => {
