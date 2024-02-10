@@ -42,7 +42,7 @@ function Intro() {
           {/* Description and button */}
           <div className="md:flex flex-col justify-end md:p-9 pl-9 md:px-32 ">
             <div className="text-xl text-[#C9D7DD] font-VarelaRound font-semibold mb-6 md:text-2xl">
-              I write Software to pay my bills.<br/>I develop Web Apps and Android apps.
+            <br/>I develop Web Apps and Android apps.
             </div>
             {/* <div className="group" onClick={scrollToProjects}>
               <div className="w-52 h-14 bg-[#FFF7D4] rounded-tl-3xl rounded-br-3xl cursor-pointer text-xl text-[#122049] font-IbmplexMono font-bold flex justify-center items-center ">
