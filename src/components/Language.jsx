@@ -49,7 +49,7 @@ const Tech = () => {
       icon: css,
     },
     {
-      name: "React JS",
+      name: "React",
       icon: reactjs,
     },
     {
