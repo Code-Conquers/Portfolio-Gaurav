@@ -24,41 +24,36 @@ function About() {
   };
 
   return (
-    <>
-      <div className="flex flex-row justify-around items-center ">
-        <div className="flex flex-col p-12 filter md:h-1/2 md:w-1/2 mr-34">
-          <Tilt options={defaultOptions}>
-            <div className="flex flex-col drop-shadow-2xl items-start border-2 border-gray-700 bg-transparent rounded-xl backdrop-blur-sm p-12 mt-4">
-              <span className="md:text-5xl text-3xl font-bold font-PoorStory text-[#FFF7D4] ">
-                About Me
-              </span>
-              <span className="md:text-xl text-sm font-medium font-IbmplexMono text-[#C9D7DD] p-2">
-                I am a third year student pursuing Computer science and
-                engineering with specialization in artificial intelligence at
-                Parul University. My interest fields are machine learning,
-                artificial intelligence and Software systems. Which I'm learning
-                through my pursuing course.
-              </span>
-              <div onClick={handleResumeClick} className="group ">
-                <div className="pt-4">
-                  <div className="w-52 h-14 bg-[#FFF7D4] rounded-tl-3xl  rounded-br-3xl cursor-pointer text-2xl text-[#122049] font-IbmplexMono font-bold flex justify-center items-center ">
-                    <button> Resume </button>
-                    <div className="relative top-0 -inset-full h-full w-1/4 z-5  transform -skew-x-12 bg-gradient-to-r from-[#020103] to-transparent opacity-20 group-hover:animate-shine" />
-                  </div>
+    <div className="flex items-center justify-center min-h-screen">
+      <div className="flex flex-col p-12 filter md:h-1/2 md:w-1/2 mr-34">
+        <Tilt options={defaultOptions}>
+          <div className="flex flex-col drop-shadow-2xl items-start border-2 border-gray-700 bg-transparent rounded-xl backdrop-blur-sm p-12 mt-4">
+            <span className="md:text-5xl text-3xl font-bold font-PoorStory text-[#FFF7D4]">
+              About Me
+            </span>
+            <span className="md:text-xl text-sm font-medium font-IbmplexMono text-[#C9D7DD] p-2">
+              I am a third year student pursuing Computer science and
+              engineering with specialization in artificial intelligence at
+              Parul University. My interest fields are machine learning,
+              artificial intelligence and Software systems. Which I'm learning
+              through my pursuing course.
+            </span>
+            <div onClick={handleResumeClick} className="group">
+              <div className="pt-4">
+                <div className="w-52 h-14 bg-[#FFF7D4] rounded-tl-3xl  rounded-br-3xl cursor-pointer text-2xl text-[#122049] font-IbmplexMono font-bold flex justify-center items-center">
+                  <button> Resume </button>
+                  <div className="relative top-0 -inset-full h-full w-1/4 z-5  transform -skew-x-12 bg-gradient-to-r from-[#020103] to-transparent opacity-20 group-hover:animate-shine" />
                 </div>
               </div>
             </div>
-          </Tilt>
+          </div>
+        </Tilt>
 
-          <Language />
-        </div>
-
-        <div className="hidden md:block align-bottom">
-          <ThreeDModelCanvas />
-        </div>
+        <Language />
       </div>
-    </>
+    </div>
   );
 }
 
 export default About;
+
