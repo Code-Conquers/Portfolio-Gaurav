@@ -32,7 +32,7 @@ function About() {
               About Me
             </span>
             <span className="md:text-xl text-sm font-medium font-IbmplexMono text-[#C9D7DD] p-2">
-              I am a third year student pursuing Computer science and
+              I am a final year student pursuing Computer science and
               engineering with specialization in artificial intelligence at
               Parul University. My interest fields are machine learning,
               artificial intelligence and Software systems. Which I'm learning
