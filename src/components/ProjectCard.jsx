@@ -14,6 +14,12 @@ const ProjectData = [
     languages: ["Flutter", "Dart", "Python", "Django"],
     githubLink: "https://github.com/gmpaliwal07/Book-Management-System",
   },
+   {
+    title: "Resume-Analyser",
+    description: "It is NLP based application which Analyse the Resume and Predict the Category, Job Role, ATS Score and Skills etc..",
+    languages: ["Flask", "ReactJS", "Python", "Javascript", "NLP(Natural Language Processing)"],
+    githubLink: "https://github.com/gmpaliwal07/Resume-Analyser-NLP",
+  }
 ];
 
 const defaultOptions = {
