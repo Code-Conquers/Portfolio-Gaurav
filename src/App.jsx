@@ -34,7 +34,7 @@ function App() {
           height: "100%",
           zIndex: -1,
           overflow: "hidden",
-          backgroundColor: videoLoaded ? "transparent" : "black"
+          backgroundColor: videoLoaded ? "transparent" : "black",
         }}
       >
         <video
@@ -46,27 +46,29 @@ function App() {
             height: "100%",
             objectFit: "cover",
             position: "absolute",
-            backdropFilter: "blur('20px')"
+            backdropFilter: "blur(20px)", 
           }}
-          onLoadedData={handleVideoLoad} 
+          onLoadedData={handleVideoLoad}
         >
           <source src={"/assets/background.mp4"} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
+
       <div className="p-4">
         <Navbar
           style={{
             position: "fixed",
-            top: 0
+            top: 0,
+            width: "100%", 
           }}
         />
       </div>
 
       {componentsLoaded && (
-        <div className="h-screen flex-col flex" style={{ touchAction: "manipulation" }}>
+        <div className="min-h-screen flex flex-col overflow-hidden" style={{ touchAction: "manipulation" }}>
           <div className="flex flex-col md:flex-col">
-            <div className="flex justify-center md:justify-end items-center md:pt-72 sm:pt-32 order-2 md:order-1 ">
+            <div className="flex justify-center md:justify-end items-center md:pt-72 sm:pt-32 order-2 md:order-1">
               <SocialLinks />
             </div>
             <div className="order-1 md:order-2 md:pt-96">
@@ -86,7 +88,7 @@ function App() {
               <Project />
             </Suspense>
           </Element>
-          <Element name="contact" className="element h-screen w-full">
+          <Element name="contact" className="element min-h-screen w-full">
             <Suspense fallback={<div>Loading...</div>}>
               <Contact />
             </Suspense>

@@ -16,7 +16,7 @@ function Intro() {
   return (
     <>
       <div>
-        <div className="flex flex-col justify-between md:flex-row pt-10">
+        <div className="flex flex-col justify-between md:flex-row p-10">
           {/* Introduction  */}
           <div className="md:flex flex-col md:items-start p-9">
             <div className="text-[#FFF7D4] font-bold text-5xl md:text-6xl font-PoorStory leading-tight md:mr-4">
