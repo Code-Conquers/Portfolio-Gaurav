@@ -7,7 +7,7 @@ function About() {
   const handleResumeClick = () => {
     // Replace 'resume_link' with the actual URL of your resume
     const resumeLink =
-      "https://drive.google.com/file/d/1tPcdaWmqMoyZsM_1hNrP8WDDDWquV7Zq/view?usp=sharing";
+      "https://drive.google.com/file/d/1r6M11eNivEerLS3zeOSIzsvCVvXAkKJm/view?usp=sharing";
     window.open(resumeLink, "_blank");
   };
 
