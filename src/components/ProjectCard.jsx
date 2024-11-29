@@ -19,6 +19,12 @@ const ProjectData = [
     description: "It is NLP based application which Analyse the Resume and Predict the Category, Job Role, ATS Score and Skills etc..",
     languages: ["Flask", "ReactJS", "Python", "Javascript", "NLP(Natural Language Processing)"],
     githubLink: "https://github.com/gmpaliwal07/Resume-Analyser-NLP",
+  },
+    {
+    title: "Real-Time Data Processing System for Weather Monitoring",
+    description: "A full-stack weather monitoring application that allows users to view real-time weather data, track changes, and visualize historical trends. The application consists of a backend API built with Express and a frontend client developed using React and Vite.",
+    languages: ["React.js", "Node.js", "Mongo DB", "Javascript", "Express.js"],
+    githubLink: "https://github.com/gmpaliwal07/Weather-App-Real-Time",
   }
 ];
 
